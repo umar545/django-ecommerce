@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static './css/style.css' %}">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hello django</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quis autem, id vitae animi officiis doloremque reiciendis laboriosam enim unde totam ullam. Quis animi cupiditate eum voluptates odio eveniet ad.</p>
+
+    {% include './partials/item-list.html' %}
+</body>
+</html>

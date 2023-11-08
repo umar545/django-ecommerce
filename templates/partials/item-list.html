@@ -1,0 +1,12 @@
+{% extends '../base.html' %}
+
+
+{% block itemList %}
+    <h2>items in items </h2>
+    
+    {% for item in items %}
+        <p>{{item}} </p>
+    {% endfor %}
+        
+{% endblock itemList %}
+    

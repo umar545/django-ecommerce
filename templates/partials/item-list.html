@@ -1,11 +1,10 @@
-{% extends '../base.html' %}
-
+{% load static %}
 
 {% block itemList %}
     <h2>items in items </h2>
     
     {% for item in items %}
-        <p>{{item}} </p>
+        <p>{{item}} && {{item.price}} </p>
     {% endfor %}
         
 {% endblock itemList %}

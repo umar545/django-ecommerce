@@ -7,4 +7,4 @@ class HomeView(View):
         context = {
             'items' : Item.objects.all(),
         }
-        return render(request, './base.html' , context=context)
+        return render(request, './index.html' , context=context)
